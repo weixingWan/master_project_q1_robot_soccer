@@ -37,7 +37,7 @@ python -m q1_soccer.play --checkpoint logs/latest/last.pt --headless --steps 100
 Full training uses the registered complete successful-trajectory dataset. Expert weights and data are not tracked by Git:
 
 - Expert weights: `shared/supermimic/expert/checkpoints/model_17800.pth`
-- Training data: `shared/supermimic/expert/datasets/q1_bounded_v1/`
+- Training data: `shared/supermimic/expert/datasets/q1_bounded_v1/` ([cloud file](https://drive.google.com/file/d/1xXA0tVHArtm6PNfAGGOxRq9V7wmL--lq/view?usp=sharing))
 - Held-out validation set: located in the dataset directory above
 
 Download the [soccer expert checkpoint](https://drive.google.com/file/d/1Hb_vHlk4TK_Y8A7NvUUSi5kduLvhXu7P/view?usp=sharing) and save it as `shared/supermimic/expert/checkpoints/model_17800.pth`; the collection and training commands load it from that path. The full successful-trajectory dataset is a separate resource: if it is missing locally, follow the [SuperMimic expert resource guide](../../shared/supermimic/expert/README.md) to obtain it. With only the expert weights, you can collect smoke data using the command above. The output directory must be empty; use a new directory for each rerun and update the `dataset` path in `configs/smoke.json` accordingly.
