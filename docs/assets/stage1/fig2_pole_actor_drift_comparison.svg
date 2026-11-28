@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 520" width="1160" height="520" style="background:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <text x="580.00" y="32.00" font-size="18.0" fill="#111827" text-anchor="middle" font-weight="bold">Pole-Weaving (Source Task 7.7): Actor Phase Trajectory &amp; Anti-Drift Analysis</text>
+  <text x="580.00" y="53.00" font-size="12.0" fill="#4B5563" text-anchor="middle" font-weight="normal">Root XY RMSE across Actor Updates 2000–2500 (Stage 1 drift to 0.4619m vs. Stage 2 stability)</text>
+  <text x="312.50" y="88.00" font-size="14.0" fill="#111827" text-anchor="middle" font-weight="bold">Held-Out Course: eval-01</text>
+  <rect x="80.00" y="100.00" width="465.00" height="355.00" fill="#FAFAFA" stroke="#D1D5DB" stroke-width="1.00" />
+  <line x1="80.00" y1="100.00" x2="80.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="80.00" y1="455.00" x2="80.00" y2="459.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="80.00" y="472.00" font-size="11.0" fill="#4B5563" text-anchor="middle" font-weight="normal">2000</text>
+  <line x1="173.00" y1="100.00" x2="173.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="173.00" y1="455.00" x2="173.00" y2="459.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="173.00" y="472.00" font-size="11.0" fill="#4B5563" text-anchor="middle" font-weight="normal">2100</text>
+  <line x1="266.00" y1="100.00" x2="266.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="266.00" y1="455.00" x2="266.00" y2="459.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="266.00" y="472.00" font-size="11.0" fill="#4B5563" text-anchor="middle" font-weight="normal">2200</text>
+  <line x1="359.00" y1="100.00" x2="359.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="359.00" y1="455.00" x2="359.00" y2="459.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="359.00" y="472.00" font-size="11.0" fill="#4B5563" text-anchor="middle" font-weight="normal">2300</text>
+  <line x1="452.00" y1="100.00" x2="452.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="452.00" y1="455.00" x2="452.00" y2="459.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="452.00" y="472.00" font-size="11.0" fill="#4B5563" text-anchor="middle" font-weight="normal">2400</text>
+  <line x1="545.00" y1="100.00" x2="545.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="545.00" y1="455.00" x2="545.00" y2="459.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="545.00" y="472.00" font-size="11.0" fill="#4B5563" text-anchor="middle" font-weight="normal">2500</text>
+  <line x1="80.00" y1="455.00" x2="545.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="76.00" y1="455.00" x2="80.00" y2="455.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="72.00" y="459.00" font-size="11.0" fill="#4B5563" text-anchor="end" font-weight="normal">0.00</text>
+  <line x1="80.00" y1="318.46" x2="545.00" y2="318.46" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="76.00" y1="318.46" x2="80.00" y2="318.46" stroke="#6B7280" stroke-width="1.00" />
+  <text x="72.00" y="322.46" font-size="11.0" fill="#4B5563" text-anchor="end" font-weight="normal">0.20</text>
+  <line x1="80.00" y1="181.92" x2="545.00" y2="181.92" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="76.00" y1="181.92" x2="80.00" y2="181.92" stroke="#6B7280" stroke-width="1.00" />
+  <text x="72.00" y="185.92" font-size="11.0" fill="#4B5563" text-anchor="end" font-weight="normal">0.40</text>
+  <text x="312.50" y="493.00" font-size="12.0" fill="#374151" text-anchor="middle" font-weight="600">Training Update</text>
+  <text x="34.00" y="277.50" font-size="12.0" fill="#374151" text-anchor="middle" font-weight="600" transform="rotate(-90.0 34.00 277.50)">root_xy_rmse_m (m)</text>
+  <line x1="80.00" y1="113.65" x2="545.00" y2="113.65" stroke="#DC2626" stroke-width="1.50" stroke-dasharray="6,4" />
+  <text x="540.00" y="107.65" font-size="10.5" fill="#DC2626" text-anchor="end" font-weight="bold">Course Limit 0.50m</text>
+  <line x1="80.00" y1="386.73" x2="545.00" y2="386.73" stroke="#9CA3AF" stroke-width="1.10" stroke-dasharray="3,4" />
+  <text x="86.00" y="381.73" font-size="10.0" fill="#6B7280" text-anchor="start" font-weight="normal">0.10m ref</text>
+  <polyline points="80.00,426.67 103.25,437.00 126.50,429.54 149.75,422.25 173.00,421.19 196.25,414.41 219.50,416.76 242.75,424.61 266.00,407.76 289.25,398.76 312.50,422.65 335.75,402.18 359.00,411.29 382.25,411.03 405.50,379.15 428.75,411.62 452.00,383.66 475.25,268.14 498.50,366.57 521.75,300.12 545.00,139.66" fill="none" stroke="#4B5563" stroke-width="2.30" stroke-linejoin="round" stroke-linecap="round" />
+  <circle cx="80.00" cy="426.67" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="103.25" cy="437.00" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="126.50" cy="429.54" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="149.75" cy="422.25" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="173.00" cy="421.19" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="196.25" cy="414.41" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="219.50" cy="416.76" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="242.75" cy="424.61" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="266.00" cy="407.76" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="289.25" cy="398.76" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="312.50" cy="422.65" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="335.75" cy="402.18" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="359.00" cy="411.29" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="382.25" cy="411.03" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="405.50" cy="379.15" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="428.75" cy="411.62" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="452.00" cy="383.66" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="475.25" cy="268.14" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="498.50" cy="366.57" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="521.75" cy="300.12" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="545.00" cy="139.66" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="103.25" cy="437.00" r="5.00" fill="#059669" stroke="#ffffff" stroke-width="1.50" />
+  <text x="111.25" y="427.00" font-size="10.5" fill="#059669" text-anchor="start" font-weight="bold">best@2025: 0.0264m</text>
+  <circle cx="545.00" cy="139.66" r="5.00" fill="#B91C1C" stroke="#ffffff" stroke-width="1.50" />
+  <text x="539.00" y="130.66" font-size="10.5" fill="#B91C1C" text-anchor="end" font-weight="bold">drift@2500: 0.4619m</text>
+  <rect x="94.00" y="110.00" width="215.00" height="34.00" fill="#ffffff" fill-opacity="0.920" stroke="#E5E7EB" stroke-width="1.00" rx="6.00" />
+  <line x1="106.00" y1="123.50" x2="128.00" y2="123.50" stroke="#4B5563" stroke-width="2.60" />
+  <text x="136.00" y="127.00" font-size="11.5" fill="#1F2937" text-anchor="start" font-weight="normal">Stage 1 Baseline</text>
+  <text x="862.50" y="88.00" font-size="14.0" fill="#111827" text-anchor="middle" font-weight="bold">Nominal Course: nominal-01</text>
+  <rect x="630.00" y="100.00" width="465.00" height="355.00" fill="#FAFAFA" stroke="#D1D5DB" stroke-width="1.00" />
+  <line x1="630.00" y1="100.00" x2="630.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="630.00" y1="455.00" x2="630.00" y2="459.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="630.00" y="472.00" font-size="11.0" fill="#4B5563" text-anchor="middle" font-weight="normal">2000</text>
+  <line x1="723.00" y1="100.00" x2="723.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="723.00" y1="455.00" x2="723.00" y2="459.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="723.00" y="472.00" font-size="11.0" fill="#4B5563" text-anchor="middle" font-weight="normal">2100</text>
+  <line x1="816.00" y1="100.00" x2="816.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="816.00" y1="455.00" x2="816.00" y2="459.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="816.00" y="472.00" font-size="11.0" fill="#4B5563" text-anchor="middle" font-weight="normal">2200</text>
+  <line x1="909.00" y1="100.00" x2="909.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="909.00" y1="455.00" x2="909.00" y2="459.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="909.00" y="472.00" font-size="11.0" fill="#4B5563" text-anchor="middle" font-weight="normal">2300</text>
+  <line x1="1002.00" y1="100.00" x2="1002.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="1002.00" y1="455.00" x2="1002.00" y2="459.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="1002.00" y="472.00" font-size="11.0" fill="#4B5563" text-anchor="middle" font-weight="normal">2400</text>
+  <line x1="1095.00" y1="100.00" x2="1095.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="1095.00" y1="455.00" x2="1095.00" y2="459.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="1095.00" y="472.00" font-size="11.0" fill="#4B5563" text-anchor="middle" font-weight="normal">2500</text>
+  <line x1="630.00" y1="455.00" x2="1095.00" y2="455.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="626.00" y1="455.00" x2="630.00" y2="455.00" stroke="#6B7280" stroke-width="1.00" />
+  <text x="622.00" y="459.00" font-size="11.0" fill="#4B5563" text-anchor="end" font-weight="normal">0.00</text>
+  <line x1="630.00" y1="318.46" x2="1095.00" y2="318.46" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="626.00" y1="318.46" x2="630.00" y2="318.46" stroke="#6B7280" stroke-width="1.00" />
+  <text x="622.00" y="322.46" font-size="11.0" fill="#4B5563" text-anchor="end" font-weight="normal">0.20</text>
+  <line x1="630.00" y1="181.92" x2="1095.00" y2="181.92" stroke="#E5E7EB" stroke-width="1.00" />
+  <line x1="626.00" y1="181.92" x2="630.00" y2="181.92" stroke="#6B7280" stroke-width="1.00" />
+  <text x="622.00" y="185.92" font-size="11.0" fill="#4B5563" text-anchor="end" font-weight="normal">0.40</text>
+  <text x="862.50" y="493.00" font-size="12.0" fill="#374151" text-anchor="middle" font-weight="600">Training Update</text>
+  <text x="584.00" y="277.50" font-size="12.0" fill="#374151" text-anchor="middle" font-weight="600" transform="rotate(-90.0 584.00 277.50)">root_xy_rmse_m (m)</text>
+  <line x1="630.00" y1="113.65" x2="1095.00" y2="113.65" stroke="#DC2626" stroke-width="1.50" stroke-dasharray="6,4" />
+  <text x="1090.00" y="107.65" font-size="10.5" fill="#DC2626" text-anchor="end" font-weight="bold">Course Limit 0.50m</text>
+  <line x1="630.00" y1="386.73" x2="1095.00" y2="386.73" stroke="#9CA3AF" stroke-width="1.10" stroke-dasharray="3,4" />
+  <text x="636.00" y="381.73" font-size="10.0" fill="#6B7280" text-anchor="start" font-weight="normal">0.10m ref</text>
+  <polyline points="630.00,425.83 653.25,439.90 676.50,434.22 699.75,426.16 723.00,417.17 746.25,417.74 769.50,419.07 792.75,422.46 816.00,377.35 839.25,403.23 862.50,412.94 885.75,380.53 909.00,362.58 932.25,406.40 955.50,360.30 978.75,356.70 1002.00,402.96 1025.25,368.18 1048.50,285.48 1071.75,274.45 1095.00,370.21" fill="none" stroke="#4B5563" stroke-width="2.30" stroke-linejoin="round" stroke-linecap="round" />
+  <circle cx="630.00" cy="425.83" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="653.25" cy="439.90" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="676.50" cy="434.22" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="699.75" cy="426.16" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="723.00" cy="417.17" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="746.25" cy="417.74" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="769.50" cy="419.07" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="792.75" cy="422.46" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="816.00" cy="377.35" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="839.25" cy="403.23" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="862.50" cy="412.94" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="885.75" cy="380.53" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="909.00" cy="362.58" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="932.25" cy="406.40" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="955.50" cy="360.30" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="978.75" cy="356.70" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="1002.00" cy="402.96" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="1025.25" cy="368.18" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="1048.50" cy="285.48" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="1071.75" cy="274.45" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="1095.00" cy="370.21" r="3.00" fill="#4B5563" stroke="#ffffff" stroke-width="1.50" />
+  <circle cx="653.25" cy="439.90" r="5.00" fill="#059669" stroke="#ffffff" stroke-width="1.50" />
+  <text x="661.25" y="429.90" font-size="10.5" fill="#059669" text-anchor="start" font-weight="bold">best@2025: 0.0221m</text>
+  <circle cx="1095.00" cy="370.21" r="5.00" fill="#B91C1C" stroke="#ffffff" stroke-width="1.50" />
+  <text x="1089.00" y="361.21" font-size="10.5" fill="#B91C1C" text-anchor="end" font-weight="bold">drift@2500: 0.1242m</text>
+</svg>

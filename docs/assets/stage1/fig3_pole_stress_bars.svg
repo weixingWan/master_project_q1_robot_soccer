@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 500" width="1100" height="500" style="background:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <text x="550.00" y="32.00" font-size="18.0" fill="#111827" text-anchor="middle" font-weight="bold">Pole-Weaving 5-Case Tracking Accuracy vs. Acceptance Thresholds</text>
+  <text x="550.00" y="53.00" font-size="11.5" fill="#4B5563" text-anchor="middle" font-weight="normal">Pre-Stress Baseline (20/20 Acceptance Passed) — Auto-upgrades to 4-Tier Stress Bars once stress_report.json lands</text>
+  <rect x="90.00" y="95.00" width="950.00" height="320.00" fill="#FAFAFA" stroke="#D1D5DB" stroke-width="1.00" />
+  <line x1="90.00" y1="415.00" x2="1040.00" y2="415.00" stroke="#E5E7EB" stroke-width="1.00" />
+  <text x="80.00" y="419.00" font-size="11.0" fill="#4B5563" text-anchor="end" font-weight="normal">0.00m</text>
+  <line x1="90.00" y1="356.82" x2="1040.00" y2="356.82" stroke="#E5E7EB" stroke-width="1.00" />
+  <text x="80.00" y="360.82" font-size="11.0" fill="#4B5563" text-anchor="end" font-weight="normal">0.10m</text>
+  <line x1="90.00" y1="298.64" x2="1040.00" y2="298.64" stroke="#E5E7EB" stroke-width="1.00" />
+  <text x="80.00" y="302.64" font-size="11.0" fill="#4B5563" text-anchor="end" font-weight="normal">0.20m</text>
+  <line x1="90.00" y1="240.45" x2="1040.00" y2="240.45" stroke="#E5E7EB" stroke-width="1.00" />
+  <text x="80.00" y="244.45" font-size="11.0" fill="#4B5563" text-anchor="end" font-weight="normal">0.30m</text>
+  <line x1="90.00" y1="182.27" x2="1040.00" y2="182.27" stroke="#E5E7EB" stroke-width="1.00" />
+  <text x="80.00" y="186.27" font-size="11.0" fill="#4B5563" text-anchor="end" font-weight="normal">0.40m</text>
+  <line x1="90.00" y1="124.09" x2="1040.00" y2="124.09" stroke="#E5E7EB" stroke-width="1.00" />
+  <text x="80.00" y="128.09" font-size="11.0" fill="#4B5563" text-anchor="end" font-weight="normal">0.50m</text>
+  <text x="34.00" y="255.00" font-size="12.0" fill="#374151" text-anchor="middle" font-weight="600" transform="rotate(-90.0 34.00 255.00)">Error Metric (m)</text>
+  <line x1="90.00" y1="240.45" x2="1040.00" y2="240.45" stroke="#D97706" stroke-width="1.50" stroke-dasharray="6,4" />
+  <text x="100.00" y="234.45" font-size="10.5" fill="#D97706" text-anchor="start" font-weight="bold">Retention RMSE Limit (0.30m)</text>
+  <line x1="90.00" y1="124.09" x2="1040.00" y2="124.09" stroke="#DC2626" stroke-width="1.50" stroke-dasharray="6,4" />
+  <text x="100.00" y="118.09" font-size="10.5" fill="#DC2626" text-anchor="start" font-weight="bold">Course Endpoint/RMSE Limit (0.50m)</text>
+  <text x="185.00" y="437.00" font-size="12.0" fill="#1F2937" text-anchor="middle" font-weight="600">nominal-01</text>
+  <rect x="123.40" y="401.49" width="58.60" height="13.51" fill="#4B5563" rx="2.50" />
+  <text x="152.70" y="396.49" font-size="10.0" fill="#111827" text-anchor="middle" font-weight="600">0.023</text>
+  <rect x="188.00" y="393.53" width="58.60" height="21.47" fill="#2563EB" rx="2.50" />
+  <text x="217.30" y="388.53" font-size="10.0" fill="#111827" text-anchor="middle" font-weight="600">0.037</text>
+  <text x="375.00" y="437.00" font-size="12.0" fill="#1F2937" text-anchor="middle" font-weight="600">eval-01</text>
+  <rect x="313.40" y="399.64" width="58.60" height="15.36" fill="#4B5563" rx="2.50" />
+  <text x="342.70" y="394.64" font-size="10.0" fill="#111827" text-anchor="middle" font-weight="600">0.026</text>
+  <rect x="378.00" y="395.28" width="58.60" height="19.72" fill="#2563EB" rx="2.50" />
+  <text x="407.30" y="390.28" font-size="10.0" fill="#111827" text-anchor="middle" font-weight="600">0.034</text>
+  <text x="565.00" y="437.00" font-size="12.0" fill="#1F2937" text-anchor="middle" font-weight="600">straight</text>
+  <rect x="503.40" y="395.85" width="58.60" height="19.15" fill="#4B5563" rx="2.50" />
+  <text x="532.70" y="390.85" font-size="10.0" fill="#111827" text-anchor="middle" font-weight="600">0.033</text>
+  <rect x="568.00" y="372.93" width="58.60" height="42.07" fill="#2563EB" rx="2.50" />
+  <text x="597.30" y="367.93" font-size="10.0" fill="#111827" text-anchor="middle" font-weight="600">0.072</text>
+  <text x="755.00" y="437.00" font-size="12.0" fill="#1F2937" text-anchor="middle" font-weight="600">left_turn</text>
+  <rect x="693.40" y="393.03" width="58.60" height="21.97" fill="#4B5563" rx="2.50" />
+  <text x="722.70" y="388.03" font-size="10.0" fill="#111827" text-anchor="middle" font-weight="600">0.038</text>
+  <rect x="758.00" y="394.67" width="58.60" height="20.33" fill="#2563EB" rx="2.50" />
+  <text x="787.30" y="389.67" font-size="10.0" fill="#111827" text-anchor="middle" font-weight="600">0.035</text>
+  <text x="945.00" y="437.00" font-size="12.0" fill="#1F2937" text-anchor="middle" font-weight="600">right_turn</text>
+  <rect x="883.40" y="394.66" width="58.60" height="20.34" fill="#4B5563" rx="2.50" />
+  <text x="912.70" y="389.66" font-size="10.0" fill="#111827" text-anchor="middle" font-weight="600">0.035</text>
+  <rect x="948.00" y="390.38" width="58.60" height="24.62" fill="#2563EB" rx="2.50" />
+  <text x="977.30" y="385.38" font-size="10.0" fill="#111827" text-anchor="middle" font-weight="600">0.042</text>
+  <rect x="775.00" y="107.00" width="252.00" height="54.00" fill="#ffffff" fill-opacity="0.920" stroke="#E5E7EB" stroke-width="1.00" rx="6.00" />
+  <line x1="787.00" y1="120.50" x2="809.00" y2="120.50" stroke="#4B5563" stroke-width="2.60" />
+  <text x="817.00" y="124.00" font-size="11.5" fill="#1F2937" text-anchor="start" font-weight="normal">Stage 1 Baseline XY RMSE</text>
+  <line x1="787.00" y1="140.50" x2="809.00" y2="140.50" stroke="#2563EB" stroke-width="2.60" />
+  <text x="817.00" y="144.00" font-size="11.5" fill="#1F2937" text-anchor="start" font-weight="normal">Stage 1 Baseline Endpoint Dist</text>
+</svg>
